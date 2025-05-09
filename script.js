@@ -8,7 +8,7 @@ var game_on = true;
 var table = $('table tr');
 
 function reportWin(rowNum,colNum) {
-  console.log("You won starting at this row,col");
+  console.log("Congratulations! You won starting at this row,col");
   console.log(rowNum);
   console.log(colNum);
 }
